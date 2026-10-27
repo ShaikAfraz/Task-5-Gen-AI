@@ -1,0 +1,30 @@
+# ==============================================================================
+# StyleGAN2 Latent Space Explorer - Dependencies
+# Verified for Python 3.10+ on macOS (Apple Silicon MPS / Intel) and Windows (CUDA / CPU)
+# ==============================================================================
+
+# Core Deep Learning Framework (Native MPS Apple Silicon & CUDA support)
+torch>=2.2.0
+torchvision>=0.17.0
+
+# Interactive Web Application Frontend
+streamlit>=1.35.0
+
+# Numerical Computation & Matrix Algebra
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Image Processing & Serialization
+pillow>=10.0.0
+
+# Latent Distance Trajectory Plotting
+matplotlib>=3.8.0
+
+# Secure Model Checkpoint Retrieval
+requests>=2.31.0
+
+# Unit & Integration Testing Framework
+pytest>=8.0.0
+
+# Headless Browser Automation (for screenshot generation)
+playwright>=1.40.0
